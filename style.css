@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+body {
+    font-family   : 'Architects Daughter', cursive;
+    background    : #00d2ff;
+    background    : -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+    background    : linear-gradient(to right, #3a7bd5, #00d2ff);
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+}
+
+header {
+    background-color: transparent;
+    text-align      : center;
+    margin-top      : 2vh;
+}
+
+#s1 {
+    border          : 3px solid black;
+    border-radius   : 10px;
+    width           : 85%;
+    height          : 40vh;
+    margin-top      : 10vh;
+    display         : flex;
+    flex-direction  : row;
+    align-items     : center;
+    justify-content : space-around;
+    background-color: rgba(255, 222, 34, 1);
+}
+
+.section1button {
+    border-style  : none;
+    width         : 25%;
+    height        : 20%;
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+
+}
+
+.section1button:hover {
+    border       : 2px solid black;
+    border-radius: 4px;
+}
+
+img {
+    max-width : 100%;
+    max-height: 100%;
+}
+
+
+#s2 {
+    font-size : 1.2rem;
+    height    : 5vh;
+    margin-top: 5vh;
+}
+
+#oponente {
+    font-size: 1.4rem;
+}
+
+@media (min-width: 768px) {
+    .section1button {
+        height: 150px;
+        width : 200px;
+    }
+
+    img {
+        height: 150px;
+        width : 200px;
+    }
+
+    #oponente {
+        font-size: 2rem;
+    }
+
+    #s2 {
+        font-size: 1.6rem;
+    }
+}
